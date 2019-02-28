@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        p>span#capitalize {
+            text-transform: capitalize;
+        }
+
+        p>span#lowercase {
+            text-transform: lowercase;
+        }
+
+        article>p {
+            text-indent: 50px;
+        }
+
+        p#manifest {
+            background: #f2f2f2;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            font-size: 26px;
+        }
+        .spacing-2{
+            letter-spacing: 5px;
+            line-height: 3;
+        }
+        .spacing-1{
+            letter-spacing: 1px;
+            line-height: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <p id="manifest" class="spacing-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, deleniti corrupti culpa voluptates
+            blanditiis itaque nesciunt doloremque nihil perferendis veritatis voluptatum officiis aperiam tempora dicta
+            rerum quos, quis adipisci quia!
+        </p>
+        <article>
+            <p><span id='indent'>Lorem ipsum</span> dolor sit amet consectetur adipisicing elit. <span id=lowercase>Odit</span>
+                atque maxime error dolores, vel cumque animi libero ut magni, <span id='capitalize'>dolorem
+                    necessitatibus</span> voluptates soluta corrupti impedit nobis illo veniam, reprehenderit incidunt?</p>
+        </article>
+        <article>
+            <p><span class="spacing-2"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, optio natus modi ducimus nemo voluptatibus
+                molestias tempora illo,</span> eligendi totam numquam omnis architecto ratione in voluptates perspiciatis eum
+                sunt necessitatibus!</p>
+        </article>
+        <article>
+            <p><span class="spacing-1"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, optio natus modi ducimus nemo voluptatibus
+                molestias tempora illo,</span> eligendi totam numquam omnis architecto ratione in voluptates perspiciatis eum
+                sunt necessitatibus!</p>
+        </article>
+    </main>
+</body>
+
+</html>
