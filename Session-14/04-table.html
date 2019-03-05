@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        table{
+
+        }
+        #customers{
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%; 
+            border: 3px double black;
+            cursor: pointer;
+        }
+        #customers td, #customers th{
+            /* border: 1px solid #ddd; */
+            border-bottom: 1px solid black;
+            padding: 8px;
+        }
+        #customers td{
+            height: 20px;
+            font-size: smaller;
+            vertical-align: bottom;
+        }
+        #customers tr:nth-child(even){
+            background: #f2f2f2;
+        }
+        #customers th{
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: green;
+            color: white;
+        }
+        #customers tr:hover{
+            background: yellow;
+        }  
+    </style>
+</head>
+
+<body>
+    <table id="customers">
+        <tr>
+            <th>company</th>
+            <th>contact</th>
+            <th>country</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Berglunds</td>
+            <td>Christania Berglund</td>
+            <td>Sweden</td>
+        </tr>
+        <tr>
+            <td>Centro Comercial Moctez</td>
+            <td>Francisco</td>
+            <td>Mexico</td>
+        </tr>
+    </table>
+</body>
+
+</html>
